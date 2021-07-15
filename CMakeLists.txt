@@ -1,4 +1,4 @@
-cmake_minimum_required (VERSION 3.2)
+cmake_minimum_required (VERSION 3.15)
 project(fernet)
 add_compile_options(-std=c++11)
 set(src base64.h endian.h fernet.h print.h)
